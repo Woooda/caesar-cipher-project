@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Дешифровка Цезаря</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Дешифровщик Цезаря</h1>
+        <input type="text" id="keyInput" placeholder="Введите ваш ключ">
+        <textarea id="encryptedText" placeholder="Введите зашифрованный текст здесь..."></textarea>
+        <button onclick="decrypt()">Дешифровать</button>
+        <h2>Расшифрованный текст:</h2>
+        <p id="outputText"></p>
+        <button onclick="window.location.href='index.html'">Вернуться к шифрованию</button>
+    </div>
+    <script src="decrypt.js"></script>
+</body>
+</html>
